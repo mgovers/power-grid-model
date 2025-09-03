@@ -16,6 +16,7 @@ dependencies:
   - numpy
   - cmake
   - ninja
+  - gcc_linux-64 [platform startswith linux]
   # test deps
   - pytest
   - pytest-cov
