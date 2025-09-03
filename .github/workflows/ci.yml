@@ -45,8 +45,8 @@ jobs:
       # otherwise create_release becomes false
       create_release: false
 
-  # check-code-quality:
-  #   uses: "./.github/workflows/check-code-quality.yml"
+  check-code-quality:
+    uses: "./.github/workflows/check-code-quality.yml"
 
   # reuse-compliance:
   #   uses: "./.github/workflows/reuse-compliance.yml"
